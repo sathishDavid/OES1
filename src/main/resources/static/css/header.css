@@ -1,0 +1,28 @@
+body {
+  font-size: 18px;
+  background-color: #f0f0f0;
+}
+
+.header {
+  position: relative;
+  padding: 2em;
+  z-index: 2;
+  background-color: #1cb5e0;
+  color: #fff;
+}
+.header__curved {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  top: -.1em;
+  border-bottom: 1.5em solid #25232a;
+  border-radius: 0 0 100% 100%;
+}
+.header__title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.content {
+  padding: 0 2em;
+}
